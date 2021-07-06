@@ -37,18 +37,22 @@ displayContent = data => {
     const { speed } = data.wind;
             
     content.innerHTML = `
-        <h2>` + name + `</h2>
-        <h4>` + country + `</h4>
-        <h1>` + temp + `°C</h1>
-        <img src = https://openweathermap.org/img/wn/` + icon + `.png >
-        <p>` + description + `</p>
-        <p>Humidity: ` + humidity + `%</p>
-        <p>Wind speed: ` + speed + `km/h</p>
-        <p>Feels like: ` + feels_like + `°C</p>
-        <p>Pressure: ` + pressure + `hPa</p>
-        <p>Visibility: ` + visibility + `km</p>
-        <p>Low: ` + temp_min + `°C</p>
-        <p>High: ` + temp_max + `°C</p>
+        <div>
+            <h2>` + name + `</h2>
+            <h4>` + country + `</h4>
+            <h1>` + temp + `°C</h1>
+            <img src = https://openweathermap.org/img/wn/` + icon + `.png >
+        </div>
+        <div>
+            <h3>` + description + `</h3>     
+            <p>Humidity: ` + humidity + `%</p>
+            <p>Wind speed: ` + speed + `km/h</p>
+            <p>Feels like: ` + feels_like + `°C</p>
+            <p>Pressure: ` + pressure + `hPa</p>
+            <p>Visibility: ` + visibility + `km</p>
+            <p>Low: ` + temp_min + `°C</p>
+            <p>High: ` + temp_max + `°C</p>    
+        </div>
     `;
 
     bigContent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";

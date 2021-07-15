@@ -53,6 +53,7 @@ displayContent = data => {
             <p>Low: ` + temp_min + `°C</p>
             <p>High: ` + temp_max + `°C</p>    
         </div>
+        
     `;
 
     bigContent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";

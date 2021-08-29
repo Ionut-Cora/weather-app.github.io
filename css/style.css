@@ -101,12 +101,9 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
-    .title h1 {
-        margin-top: 2rem;
-    }
 
     .card {
         width: 80vw;
-        padding: 0 1rem;
+        padding: 2rem 1rem;
     }
 }

@@ -43,7 +43,7 @@ body {
     outline: none;
     padding: 0.4em 1em;
     margin-right: 1rem;
-    background: #7c7c7c2b;
+    background: #7c7c7c59;
     color: #fff;
     font-size: 105%;
     width: 60%;
@@ -64,7 +64,7 @@ body {
     border: none;
     outline: none;
     padding: 0.4em 1em;
-    background: #7c7c7c2b;
+    background: #7c7c7c59;
     color: #fff;
     font-size: 105%;
     cursor: pointer;
@@ -72,7 +72,7 @@ body {
 }
 
 .submit:hover {
-    background: #7c7c7c6b;
+    background: #7c7c7c70;
 }
 
 .title {
@@ -90,20 +90,10 @@ footer {
 
 
 @media only screen and (max-width: 1200px) {
-    .big-content {
-        align-items: center;
-    }
 
     .card {
-        width: 40vw;
-        margin: 2rem 0;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-
-    .card {
-        width: 80vw;
-        padding: 0 1rem;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
     }
 }

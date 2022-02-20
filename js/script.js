@@ -56,7 +56,7 @@ displayContent = data => {
         
     `;
 
-    bigContent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
+    bigContent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + description + "')";
 }
 
 inputText.addEventListener('keyup', (event) => {
